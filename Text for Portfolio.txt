@@ -1,0 +1,83 @@
+========== HEADER ==========
+.nav__logo
+Masege Lanvin <span>Ratsoma</span>
+
+.nav__link
+Home - About - Projects - Contact
+
+
+========== HOME ==========
+.home__subtitle
+Hello, <span>I’m</span>
+
+.home__title
+Masege L. Ratsoma
+
+.home__education
+Front-end Developer
+
+.home__description
+Im a graduate with a diploma in 
+Systems Development and have been learning 
+to code since 2022. I enjoy being able to 
+successfully code and design projects to completion.
+
+.button
+Let's Talk
+
+
+
+========== ABOUT ==========
+.section__subtitle
+My <span>Intro</span>
+
+.section__title
+About Me
+
+.about__description
+Frontend developer, and learning back-end
+in order to properly familiarize myself and 
+become a full-stack developer.
+
+
+========== SKILLS ==========
+.section__subtitle
+Favorite <span>Skills</span>
+
+.section__title
+My Skills
+
+.skills__description
+See fully what skills I have and 
+projects I have done.
+
+.button
+See Projects
+
+.skills__item
+HTML & CSS
+JavaScript
+React
+
+Git & GitHub
+Figma
+Sketch
+
+========== PROJECTS ==========
+.section__subtitle
+My <span>Projects</span>
+
+.section__title
+Recent Projects
+
+.projects__subtitle .projects__title .projects__button
+Web
+Modern website
+View demo
+
+========== FOOTER ==========
+.footer__title
+Masege Lanvin <span>Ratsoma</span>
+
+.footer__education
+Front-end Developer
