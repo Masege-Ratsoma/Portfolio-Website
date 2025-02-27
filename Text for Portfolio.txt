@@ -14,7 +14,7 @@ Hello, <span>I’m</span>
 Masege L. Ratsoma
 
 .home__education
-Front-end Developer
+Graduate with a diploma in systems Development.
 
 .home__description
 Im a graduate with a diploma in 
@@ -24,6 +24,10 @@ successfully code and design projects to completion.
 
 .button
 Let's Talk
+
+.home__social
+https://github.com/
+https://www.linkedin.com/
 
 
 
@@ -59,9 +63,6 @@ HTML & CSS
 JavaScript
 React
 
-Git & GitHub
-Figma
-Sketch
 
 ========== PROJECTS ==========
 .section__subtitle
