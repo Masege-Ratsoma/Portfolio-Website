@@ -17,8 +17,8 @@
         -> Copy the color mode (HSL)
     */
   
-    --hue: 162;
-    --first-color: #04F9F2;
+    --hue: 182;
+    --first-color: hsl(210, 100%, 70%);
     --first-color-alt: #0091E7;
     --title-color: hsl(228, 8%, 95%);
     --text-color: hsl(228, 8%, 65%);
@@ -231,6 +231,23 @@
   }
   
   /* Add blur to header */
+
+  .blur-header{
+    background-color: transparent;
+  }
+
+  .blur-header::after{
+    content: '';
+    position: absolute;
+    width: 1000%;
+    height: 100%;
+    background-color: hsla(0, 0%, 10%, .3);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
   
   
   /* Active link */
@@ -308,13 +325,93 @@
 
 
   /*== BUTTON ==*/
+  .button{
+    display: inline-block;
+    background-color: var(--first-color);
+    padding: 1rem 1.75rem;
+    border-radius: .7rem;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: boxshadow .4s;
+  }
+
+  .button:hover{
+    box-shadow: 0 8px 24px hsla(221, 100%, 46%, 0.2);
+  }
   
   
   /*== ABOUT ==*/
+  .about__container{
+    row-gap: 2.5rem;
+  }
+
+  .about__data{
+    text-align: center;
+  }
+
+  .about__description{
+    margin-bottom: 2rem;
+  }
   
+  .about__image{
+    justify-self: center;
+  }
+
+  .about__blob{
+    width: 320px;
+  }
+
+  .about__blob path{
+    stroke:var(--first-color);
+
+  }
+
+
   
   /*== SKILLS ==*/
 
+  .skills{
+    background-color: var(--container-color);
+  }
+
+  .skills__container{
+    padding: 2rem;
+    row-gap: 3.5rem;
+  }
+
+  .skills__data{
+    text-align: center;
+  }
+
+  .skills__description{
+    margin-bottom: 2rem;
+  }
+
+  .skills__content,
+  .skills__group{
+    display: grid;
+  }
+
+  .skills__content{
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 4rem;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .skills__group{
+    row-gap: 1rem;
+    list-style: decimal-leading-zero;
+  }
+
+  .skills__item{
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+  }
+
+  .skills__item::marker{
+    color: var(--first-color);
+  }
 
   /*== PROJECTS ==*/
   

@@ -39,9 +39,9 @@ My <span>Intro</span>
 About Me
 
 .about__description
-Frontend developer, and learning back-end
-in order to properly familiarize myself and 
-become a full-stack developer.
+Im a graduate from Boston City Campus College
+with skills in Html, Css, Javascript and php.
+As well as self taught use of Node and Express.js .
 
 
 ========== SKILLS ==========
@@ -52,8 +52,7 @@ Favorite <span>Skills</span>
 My Skills
 
 .skills__description
-See fully what skills I have and 
-projects I have done.
+See what skills I have learned
 
 .button
 See Projects
@@ -61,7 +60,7 @@ See Projects
 .skills__item
 HTML & CSS
 JavaScript
-React
+
 
 
 ========== PROJECTS ==========
