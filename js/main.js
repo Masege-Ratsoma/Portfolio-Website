@@ -42,3 +42,14 @@ const blurHeader = () =>{
                        : header.classList.remove('blur-header')
 }
 window.addEventListener('scroll', blurHeader)
+
+
+/*=== show scrollup ===*/
+
+const scrollUp = () => {
+    const scrollUp = document.getElementById('scroll-up')
+    //When the scroll is higher than 350 viweport height, add the show-scroll class to the tag with the scrollup
+    this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
+                     : scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollUp)
