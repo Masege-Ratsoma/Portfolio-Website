@@ -827,6 +827,9 @@
     font-size: var(--bigger-font-size);
   }
 
+  .scrollup{
+    right: 3rem;
+  }
 
 
 }
